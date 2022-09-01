@@ -27,7 +27,7 @@ jobs:
         with:
           java-version:11
       - name: Run unit test
-        run: mvn clean test -Punit-test
+        run: mvn clean test -Ptestng
 
 
 
